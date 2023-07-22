@@ -19,7 +19,7 @@ Install the package via Composer:
 
 ```bash
 composer require your-vendor/api-rate-limiter
-
+`
 ## Usage
 
 Import the ApiRateLimiterMiddleware in your App\Http\Kernel.php file.
@@ -34,6 +34,7 @@ protected $middlewareGroups = [
         ApiRateLimiterMiddleware::class,
     ],
 ];
+`
 
 ## Configuration
 
@@ -44,7 +45,7 @@ return [
     'tokens_per_minute' => 60,
     'max_tokens' => 60,
 ];
-
+`
 
 ## License
 This package is open-source software licensed under the MIT License.
