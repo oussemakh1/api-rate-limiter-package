@@ -20,7 +20,6 @@ Install the package via Composer:
 ```bash
 composer require your-vendor/api-rate-limiter
 
-
 ## Usage
 
 Import the ApiRateLimiterMiddleware in your App\Http\Kernel.php file.
