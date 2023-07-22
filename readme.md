@@ -25,9 +25,6 @@ composer require your-vendor/api-rate-limiter
 Import the ApiRateLimiterMiddleware in your App\Http\Kernel.php file.
 Apply the middleware to specific API routes or globally in the middleware stack.
 
-1. Import the `ApiRateLimiterMiddleware` in your `App\Http\Kernel.php` file.
-2. Apply the middleware to specific API routes or globally in the middleware stack.
-
 ```php
 use YourVendor\ApiRateLimiter\Middleware\ApiRateLimiterMiddleware;
 
