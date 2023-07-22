@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/github/license/your-vendor/api-rate-limiter)
 ![Latest Stable Version](https://img.shields.io/github/v/release/your-vendor/api-rate-limiter)
-![Total Downloads](https://img.shields.io/packagist/dt/your-vendor/api-rate-limiter)
+![Total Downloads](https://img.shields.io/packagist/dt/oussema-khlifi/api-rate-limiter)
 
 The API Rate Limiter package provides a middleware for Laravel applications to implement rate limiting on incoming API requests using the Token Bucket Algorithm. Rate limiting helps prevent abuse of API resources and ensures fair access to the API for all users.
 
