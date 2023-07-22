@@ -1,0 +1,23 @@
+{
+    "name": "oussema-khlifi/api-rate-limiter",
+    "description": "API RATE LIMITER is a package that provides a middelware for laravel applications to enforce rate limiting on incoming API requests using the Token Bucket Algorithm, it helps to prevent abuse of API resources and ensures fair access to the API for all users",
+    "keywords": ["laravel", "api", "rate limiter", "token bucket algorithm"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oussema Khlifi",
+            "email": "khoussemaa@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OussemaKhlifi\\ApiRateLimiter\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4",
+        "illuminate/support": "^8.0",
+        "illuminate/cache": "^8.0"
+    }
+}
