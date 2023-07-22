@@ -18,7 +18,7 @@ The API Rate Limiter package provides a middleware for Laravel applications to i
 Install the package via Composer:
 
 ```bash
-composer require your-vendor/api-rate-limiter
+composer require oussema-khlifi/api-rate-limiter
 ```
 
 ## Usage
